@@ -1,3 +1,7 @@
+# ADVERTENCIA!!! (17 de marzo)
+Esto no está terminado :( 
+En el correr de la semana lo completamos, y subimos las ppts.
+
 # Programando el Testing
 Taller de TestingUY - Centro de Ensayos de Software \
 Campus Party Uruguay - Punta del Este - #CPUY1 \
