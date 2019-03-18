@@ -31,3 +31,30 @@ La idea es mostrar un ejemplo de automatización web utilizando Selenium. Para e
     - Para Mozilla Firefox: Mozilla GeckoDriver
       - https://github.com/mozilla/geckodriver/releases
     - Cualquiera que decidan usar, deben descomprimirlo
+
+## ¿Cómo descargo el proyecto?
+En Eclipse:
+1. File -> Import
+2. Projects from Git
+3. Clone URI
+4. Ingresan la ruta que obtienen al presionar el botón verde "Clone or download" (git)
+5. Siguiente, siguiente...
+6. Luego que el proyecto se descargue, presionan botón derecho sobre la raíz del mismo -> Properties
+7. Java Build Path
+8. Libraries
+9. Seleccionan selenium-standalone-server y presionan "Edit"
+10. Buscan el archivo jar en su PC
+11. Apply and close
+
+### Configurar driver
+El proyecto viene por defecto configurado para correr con Firefox, pero tienen código comentado indicando la alternativa para Chrome.
+En todos los casos deberán setear la variable de sistema correspondiente al driver donde se encuentra localizado el ejecutable.
+Por ejemplo, para Firefox:
+```
+System.setProperty("webdriver.gecko.driver", "C:\\Test\\geckodriver.exe");
+WebDriver driver = new FirefoxDriver();
+```
+(Si observan la ruta en windows queda con doble \\, esto es correcto)
+
+## ¿Cómo ejecuto un caso de prueba?
+Pueden ejecutar tanto una clase entera como un método test en particular presionando botón derecho sobre la clase/el nombre del método -> Run as -> Junit Test
