@@ -11,6 +11,14 @@ Campus Party Uruguay - Punta del Este - #CPUY1 \
 ## Resumen
 La idea es mostrar un ejemplo de automatización web utilizando Selenium. Para esto, usamos como ejemplo la página https://katalon-demo-cura.herokuapp.com/ (provista por [Katalon](https://www.katalon.com/))
 
+El guión de prueba consiste en:
+1. Login
+![Alt text](resources/images/Login.png?raw=true "Title")
+2. Ingresar una reservación
+![Alt text](resources/images/MakeAppointment.png?raw=true "Title")
+3. Verificar la reservación
+![Alt text](resources/images/AppointmentConfirmation.png?raw=true "Title")
+
 ## Requisitos
 - Java JDK 1.8
   - https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
