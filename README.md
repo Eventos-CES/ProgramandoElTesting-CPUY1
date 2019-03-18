@@ -41,6 +41,7 @@ El guión de prueba consiste en:
     - Cualquiera que decidan usar, deben descomprimirlo
 
 ## ¿Cómo descargo el proyecto?
+Antes de descargarlo, ¿Miraste la presentación? ¿Intentaste resolverlo por tí mismo? Recuerda que la idea es aprender :)
 En Eclipse:
 1. File -> Import
 2. Projects from Git
