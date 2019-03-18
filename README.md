@@ -1,6 +1,5 @@
 # ADVERTENCIA!!! (17 de marzo)
-Esto no está terminado :( 
-En el correr de la semana lo completamos, y subimos las ppts.
+Actualización 18 de marzo: subida la presentación y código casi terminado.
 
 # Programando el Testing
 Taller de TestingUY - Centro de Ensayos de Software \
