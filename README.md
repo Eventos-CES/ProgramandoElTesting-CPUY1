@@ -30,3 +30,4 @@ La idea es mostrar un ejemplo de automatización web utilizando Selenium. Para e
       - https://sites.google.com/a/chromium.org/chromedriver/downloads
     - Para Mozilla Firefox: Mozilla GeckoDriver
       - https://github.com/mozilla/geckodriver/releases
+    - Cualquiera que decidan usar, deben descomprimirlo
