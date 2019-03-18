@@ -5,11 +5,20 @@ En el correr de la semana lo completamos, y subimos las ppts.
 # Programando el Testing
 Taller de TestingUY - Centro de Ensayos de Software \
 Campus Party Uruguay - Punta del Este - #CPUY1 \
-17 de marzo de 2019
+17 de marzo de 2019 \
+[Ver presentación](resources/Presentacion-ProgramandoElTesting.pdf)
 
 # Acerca del proyecto
 ## Resumen
 La idea es mostrar un ejemplo de automatización web utilizando Selenium. Para esto, usamos como ejemplo la página https://katalon-demo-cura.herokuapp.com/ (provista por [Katalon](https://www.katalon.com/))
+
+El guión de prueba consiste en:
+1. Login
+![Alt text](resources/images/Login.png?raw=true "Title")
+2. Ingresar una reservación
+![Alt text](resources/images/MakeAppointment.png?raw=true "Title")
+3. Verificar la reservación
+![Alt text](resources/images/AppointmentConfirmation.png?raw=true "Title")
 
 ## Requisitos
 - Java JDK 1.8
@@ -33,6 +42,7 @@ La idea es mostrar un ejemplo de automatización web utilizando Selenium. Para e
     - Cualquiera que decidan usar, deben descomprimirlo
 
 ## ¿Cómo descargo el proyecto?
+Antes de descargarlo, ¿Miraste la presentación? ¿Intentaste resolverlo por tí mismo? Recuerda que la idea es aprender :)
 En Eclipse:
 1. File -> Import
 2. Projects from Git
