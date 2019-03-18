@@ -6,6 +6,7 @@ En el correr de la semana lo completamos, y subimos las ppts.
 Taller de TestingUY - Centro de Ensayos de Software \
 Campus Party Uruguay - Punta del Este - #CPUY1 \
 17 de marzo de 2019
+[Ver presentación](resources/Presentacion-ProgramandoElTesting.pdf)
 
 # Acerca del proyecto
 ## Resumen
