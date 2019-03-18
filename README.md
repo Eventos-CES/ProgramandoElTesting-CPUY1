@@ -25,7 +25,7 @@ La idea es mostrar un ejemplo de automatización web utilizando Selenium. Para e
 - Selenium 
   - Selenium Standalone Server
     - https://www.seleniumhq.org/download/
-  - También se debe utilizar un driver para manejar el navegador
+  - También se debe utilizar un driver para controlar el navegador
     - Para Google Chrome: ChromeDriver
       - https://sites.google.com/a/chromium.org/chromedriver/downloads
     - Para Mozilla Firefox: Mozilla GeckoDriver
