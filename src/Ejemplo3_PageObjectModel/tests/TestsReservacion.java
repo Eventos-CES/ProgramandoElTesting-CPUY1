@@ -29,7 +29,7 @@ class TestsReservacion {
 		//System.setProperty("webdriver.chrome.driver", "C:\\Test\\chromedriver.exe");
 		//driver = new ChromeDriver();
 		
-		// Con el siguiente código le decimos a Selenium que vuelva a intentar cuando no encuentra un objeto
+		// Con el siguiente codigo le decimos a Selenium que vuelva a intentar cuando no encuentra un objeto
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
@@ -59,7 +59,7 @@ class TestsReservacion {
 		makeAppointmentPage.ingresarComentario(comentario);
 		makeAppointmentPage.clickAgendar();
 		
-		// Revisión de datos en pantalla de confirmación
+		// Revision de datos en pantalla de confirmacion
 		AppointmentConfirmationPage appointmentConfirmationPage = new AppointmentConfirmationPage(driver);
 		assertEquals(lugar, appointmentConfirmationPage.valorLugar(), "El lugar no coincide con el ingresado.");
 		assertEquals(solicitarReadmision==true ? "Yes" : "No", appointmentConfirmationPage.valorSolicitarReadmision(), 
