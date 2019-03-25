@@ -1,6 +1,3 @@
-# ADVERTENCIA!!! (17 de marzo)
-Actualización 18 de marzo: subida la presentación y código casi terminado.
-
 # Programando el Testing
 Taller de TestingUY - Centro de Ensayos de Software \
 Campus Party Uruguay - Punta del Este - #CPUY1 \
